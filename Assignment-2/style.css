@@ -1,0 +1,44 @@
+
+body {font-family: Verdana; margin-left: auto; margin-right: auto; justify-self: center;}
+.bg-fixed {position:fixed;inset: 0;z-index: -1;overflow: hidden;}
+header{color: #ffffff; justify-self: center;}
+.logo {justify-items: center;justify-self: center;}
+.title {margin: 40px;background: #0f2a1f;padding:30px; border-radius:15px;}
+div {justify-self: center;}
+main {font-size: x-large;font-weight: bold;background: #eafcf4;border-radius: 15px;margin:5% 10%;}
+.p1 {padding:5% 0 0 0 ;margin:0 5%; justify-self: center;}
+.p2 {margin:0 5%; justify-self: center;}
+ul {justify-self: center;}
+ol {padding:0 5% 5%;justify-self: center;}
+a {text-decoration: none;color: #0f2a1f;font-size:large;} 
+li {color: #0f2a1f;font-size:large;}
+section {justify-self: center;}
+.body-image {border-radius: 15px; width: 90%; margin: 5%;height: auto;} 
+footer {color: #ffffff;margin: 0 10%;background: #0f2a1f;padding:30px; border-radius:15px;justify-self: center;}
+.footer-links {color: #ffffff}
+.footer-p1 {justify-self: center;}
+.footer-p2 {justify-self: center;}
+
+@media only screen and (max-width:300px) {
+.bg-fixed {width: 100vh;}
+main {margin:5% 10%;}
+.body-image {margin:5%;width:70%;}
+}
+
+@media only screen and (max-width:600px) {
+.bg-fixed {width: 100vh;}
+main {margin:5% 10%;}
+}
+
+@media only screen and (min-width:900px) {
+
+.bg-fixed {width: 100%;}
+main {margin:5% 10%;}
+.body-image {width:90%;margin:5%;}
+}
+
+@media only screen and (min-width:1200px) {
+.bg-fixed {width: 100%;}
+main {margin:5% 10%;}
+.body-image {width:90%;margin:5%;}
+}
